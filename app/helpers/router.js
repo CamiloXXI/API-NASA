@@ -1,4 +1,5 @@
 import { renderApod } from "../components/apod.js";
+import epic from "../components/epic.js";
 import { newApod } from "./newApod.js";
 
 const D = document,
@@ -17,6 +18,7 @@ export function router() {
       });
     } else if (e.target.matches(".epic")) {
       $app.innerHTML = `<h1>EPIC</h1>`;
+      epic();
     } else if (e.target.matches(".earth")) {
       $app.innerHTML = `<h1>Earth</h1>`;
       
