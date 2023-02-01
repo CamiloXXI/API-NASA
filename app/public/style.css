@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(17, 30, 87);
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+header > h1{
+    margin: 1rem auto;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {    
+    margin: 10px auto;
+    list-style-type: none;
+}
+
+h2{
+    text-align: center;
+    margin: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    margin: 1rem auto;
+    text-align: center;    
+}
+
+form > input {
+    border-radius: 8px 8px 8px 8px;
+    font-size: large;
+}
+
+section > img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
+
+#apod{
+    margin: 2rem;
+    padding: 10px;
+}
+
+#apod > div, img, p{
+    margin: 8px;
+}
+
+#apod > div > img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 40%;
+    height: 600px;
+}
+
+#apod > div{
+    display: flex;
+    flex-direction: row;
+  }
+  
+#apod, #apod p:first-of-type {
+    flex: 1;
+}
