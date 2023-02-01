@@ -1,6 +1,5 @@
 import { renderApod } from "../components/apod.js";
 import { SearchForm } from "../components/search.js";
-import { obj } from "./api.js";
 import { newApod } from "./newApod.js";
 import render from "./render.js";
 

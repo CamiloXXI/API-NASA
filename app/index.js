@@ -1,4 +1,3 @@
-import { obj } from "./helpers/api.js";
 import { router } from "./helpers/router.js";
 
 router();
