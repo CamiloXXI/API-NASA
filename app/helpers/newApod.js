@@ -9,12 +9,13 @@ export async function newApod(date) {
   console.log(date);
 
   return ($sectionNewApod.innerHTML = `
-        <section id="apod">
+        <section class="apod">
             <h2>${json.title}</h2>
             <div>
                 <img src="${json.url}">
                 <p>${json.explanation}</p>
             </div>
+            <p>Date: ${apod.date}</p>
             <p>${json.copyright} &copy;</p>
         </section>
     `);
